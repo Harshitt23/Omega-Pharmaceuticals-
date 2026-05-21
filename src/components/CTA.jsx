@@ -4,7 +4,7 @@ import ScrollReveal from "./ScrollReveal";
 export default function CTA() {
   return (
     <section className="relative mx-4 overflow-hidden rounded-3xl sm:mx-6 lg:mx-8">
-      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-pharma-700 via-pharma-600 to-pharma-800 px-6 py-16 sm:px-12 sm:py-20 lg:px-16">
+      <div className="relative overflow-hidden rounded-3xl bg-linear-to-r from-pharma-700 via-pharma-600 to-pharma-800 px-6 py-16 sm:px-12 sm:py-20 lg:px-16">
         <div className="pointer-events-none absolute -right-20 -top-20 h-64 w-64 rounded-full bg-white/10 blur-2xl" />
         <div className="pointer-events-none absolute -bottom-16 left-1/4 h-48 w-48 rounded-full bg-blue-300/20 blur-2xl" />
 

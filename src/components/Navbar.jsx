@@ -19,7 +19,7 @@ export default function Navbar() {
           href="#home"
           className="group flex items-center gap-2.5 transition-opacity duration-300 hover:opacity-90"
         >
-          <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-pharma-600 to-pharma-800 text-white shadow-lg shadow-blue-500/25 transition-all duration-300 group-hover:scale-105 group-hover:shadow-xl group-hover:shadow-blue-500/30">
+          <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-linear-to-br from-pharma-600 to-pharma-800 text-white shadow-lg shadow-blue-500/25 transition-all duration-300 group-hover:scale-105 group-hover:shadow-xl group-hover:shadow-blue-500/30">
             <Pill className="h-5 w-5" strokeWidth={2.5} />
           </span>
           <div className="leading-tight">
@@ -44,7 +44,7 @@ export default function Navbar() {
 
         <a
           href="#contact"
-          className="btn-primary hidden rounded-full bg-gradient-to-r from-pharma-600 to-pharma-700 px-5 py-2.5 text-sm font-semibold text-white shadow-md shadow-blue-500/30 md:inline-block"
+          className="btn-primary hidden rounded-full bg-linear-to-r from-pharma-600 to-pharma-700 px-5 py-2.5 text-sm font-semibold text-white shadow-md shadow-blue-500/30 md:inline-block"
         >
           Get in Touch
         </a>
@@ -80,7 +80,7 @@ export default function Navbar() {
           <li className="pt-2">
             <a
               href="#contact"
-              className="block rounded-full bg-gradient-to-r from-pharma-600 to-pharma-700 px-4 py-3 text-center text-sm font-semibold text-white transition-all duration-300 hover:shadow-lg"
+              className="block rounded-full bg-linear-to-r from-pharma-600 to-pharma-700 px-4 py-3 text-center text-sm font-semibold text-white transition-all duration-300 hover:shadow-lg"
               onClick={closeMenu}
             >
               Get in Touch

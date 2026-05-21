@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="scroll-mt-20 relative overflow-hidden bg-gradient-to-b from-white via-pharma-50/50 to-slate-50 pt-28 pb-16 sm:pt-32 sm:pb-24 lg:pb-32"
+      className="scroll-mt-20 relative overflow-hidden bg-linear-to-b from-white via-pharma-50/50 to-slate-50 pt-28 pb-16 sm:pt-32 sm:pb-24 lg:pb-32"
     >
       <div className="pointer-events-none absolute -top-24 right-0 h-96 w-96 rounded-full bg-blue-400/10 blur-3xl" />
       <div className="pointer-events-none absolute bottom-0 left-0 h-72 w-72 rounded-full bg-pharma-200/40 blur-3xl" />
@@ -23,7 +23,7 @@ export default function Hero() {
           <ScrollReveal delay={100}>
             <h1 className="text-4xl font-extrabold leading-[1.1] tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
               Advanced{" "}
-              <span className="bg-gradient-to-r from-pharma-600 to-pharma-800 bg-clip-text text-transparent">
+              <span className="bg-linear-to-r from-pharma-600 to-pharma-800 bg-clip-text text-transparent">
                 Pharmaceutical
               </span>{" "}
               Solutions
@@ -42,7 +42,7 @@ export default function Hero() {
             <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
               <a
                 href="#products"
-                className="btn-primary group inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-pharma-600 to-pharma-700 px-8 py-3.5 text-sm font-semibold text-white shadow-lg shadow-blue-500/30"
+                className="btn-primary group inline-flex items-center justify-center gap-2 rounded-full bg-linear-to-r from-pharma-600 to-pharma-700 px-8 py-3.5 text-sm font-semibold text-white shadow-lg shadow-blue-500/30"
               >
                 Explore Products
                 <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />

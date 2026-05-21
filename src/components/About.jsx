@@ -51,7 +51,7 @@ export default function About() {
         <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {features.map((feature, index) => (
             <ScrollReveal key={feature.title} delay={index * 80}>
-              <article className="card-hover group h-full rounded-2xl border border-slate-100 bg-gradient-to-b from-slate-50 to-white p-6 shadow-sm hover:border-pharma-200 hover:shadow-lg hover:shadow-blue-500/10">
+              <article className="card-hover group h-full rounded-2xl border border-slate-100 bg-linear-to-b from-slate-50 to-white p-6 shadow-sm hover:border-pharma-200 hover:shadow-lg hover:shadow-blue-500/10">
                 <span className="icon-hover inline-flex h-12 w-12 items-center justify-center rounded-xl bg-pharma-100 text-pharma-700 group-hover:bg-pharma-600 group-hover:text-white group-hover:shadow-md group-hover:shadow-blue-500/20">
                   <feature.icon className="h-6 w-6" />
                 </span>

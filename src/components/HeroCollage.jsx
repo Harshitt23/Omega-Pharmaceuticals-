@@ -30,7 +30,7 @@ const collageItems = [
 function CollageCell({ item }) {
   if (item.featured) {
     return (
-      <div className="group col-span-2 flex min-h-[200px] flex-col overflow-hidden rounded-2xl border border-slate-200/80 bg-gradient-to-br from-pharma-50 via-white to-slate-50 shadow-lg shadow-blue-500/5 transition-all duration-500 hover:border-pharma-200 hover:shadow-xl hover:shadow-blue-500/10 sm:min-h-[240px] lg:min-h-[260px]">
+      <div className="group col-span-2 flex min-h-[200px] flex-col overflow-hidden rounded-2xl border border-slate-200/80 bg-linear-to-br from-pharma-50 via-white to-slate-50 shadow-lg shadow-blue-500/5 transition-all duration-500 hover:border-pharma-200 hover:shadow-xl hover:shadow-blue-500/10 sm:min-h-[240px] lg:min-h-[260px]">
         <div className="flex flex-1 items-center justify-center p-6 sm:p-8">
           <img
             src={item.image}
@@ -51,7 +51,7 @@ function CollageCell({ item }) {
   }
 
   return (
-    <div className="group flex min-h-[160px] flex-col overflow-hidden rounded-2xl border border-slate-200/80 bg-gradient-to-br from-white to-pharma-50/40 shadow-md shadow-slate-200/50 transition-all duration-500 hover:-translate-y-0.5 hover:border-pharma-200 hover:shadow-lg hover:shadow-blue-500/10 sm:min-h-[180px]">
+    <div className="group flex min-h-[160px] flex-col overflow-hidden rounded-2xl border border-slate-200/80 bg-linear-to-br from-white to-pharma-50/40 shadow-md shadow-slate-200/50 transition-all duration-500 hover:-translate-y-0.5 hover:border-pharma-200 hover:shadow-lg hover:shadow-blue-500/10 sm:min-h-[180px]">
       <div className="flex flex-1 items-center justify-center p-4 sm:p-5">
         <img
           src={item.image}

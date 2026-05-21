@@ -32,7 +32,7 @@ export default function Products() {
   return (
     <section
       id="products"
-      className="scroll-mt-20 bg-gradient-to-b from-slate-50 to-white py-20 sm:py-28"
+      className="scroll-mt-20 bg-linear-to-b from-slate-50 to-white py-20 sm:py-28"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
@@ -63,8 +63,8 @@ export default function Products() {
           {products.map((product, index) => (
             <ScrollReveal key={product.title} delay={index * 100}>
               <article className="card-hover group flex h-full flex-col overflow-hidden rounded-3xl border border-slate-200/80 bg-white shadow-md hover:border-pharma-200 hover:shadow-2xl hover:shadow-blue-500/15">
-                <div className="relative flex h-56 items-center justify-center overflow-hidden bg-gradient-to-br from-pharma-50 via-white to-slate-50 p-8">
-                  <div className="absolute inset-0 bg-gradient-to-t from-white/80 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                <div className="relative flex h-56 items-center justify-center overflow-hidden bg-linear-to-br from-pharma-50 via-white to-slate-50 p-8">
+                  <div className="absolute inset-0 bg-linear-to-t from-white/80 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
                   <img
                     src={product.image}
                     alt={product.alt}
