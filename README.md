@@ -107,7 +107,7 @@ src/
 ## Author
 
 **Harshit Sharma**  
-_harshitr2308@gmail.com/https://www.linkedin.com/in/harshitcode/._
+_harshitr2308@gmail.com / https://www.linkedin.com/in/harshitcode/._
 
 ---
 
