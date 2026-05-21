@@ -104,24 +104,13 @@ src/
 
 ---
 
-## Assignment context
-
-This repository contains my submission for a **technical screening assignment** as part of a company’s interview and shortlisting pipeline. It demonstrates:
-
-- Component-based React architecture
-- Utility-first CSS with a consistent design system
-- Attention to layout, spacing, and responsive behavior
-- Lightweight UX polish (scroll behavior, animations, form feedback)
-
----
-
 ## Author
 
-**Your Name**  
-_Submit your preferred contact (email / LinkedIn) when sharing with the company._
+**Harshit Sharma**  
+_harshitr2308@gmail.com/https://www.linkedin.com/in/harshitcode/._
 
 ---
 
 ## License
 
-This project was created for evaluation purposes as part of an interview assignment. All rights reserved unless otherwise stated by the assigning company.
+This project was created for evaluation purposes. All rights reserved unless otherwise stated by the assigning company.
