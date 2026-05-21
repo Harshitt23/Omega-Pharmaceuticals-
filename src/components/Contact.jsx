@@ -42,9 +42,9 @@ export default function Contact() {
                     title: "Address",
                     content: (
                       <>
-                        First Floor, Tower A, Vatika City Centre, 
-                        <br />
-                        Sector 83, Gurugram, Haryana, INDIA (122012)
+                      Omega Pharmacy, 2714 Osborne Rd, Suite K 
+                      <br />
+                      Saint Marys, GA – 31558
                       </>
                     ),
                   },
@@ -53,10 +53,10 @@ export default function Contact() {
                     title: "Phone",
                     content: (
                       <a
-                        href="tel:7818852886"
+                        href="Phone:912-226-7622 "
                         className="text-sm text-slate-600 transition-colors duration-300 hover:text-pharma-600"
                       >
-                        +91-7818852886
+                        912-226-7622 
                       </a>
                     ),
                   },

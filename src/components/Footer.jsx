@@ -65,18 +65,18 @@ export default function Footer() {
                 <li className="flex items-start gap-3 transition-colors duration-300 hover:text-slate-300">
                   <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-pharma-400" />
                   <span>
-                    First Floor, Tower A, Vatika City Centre, 
-                    <br />
-                    Sector 83, Gurugram, Haryana, INDIA (122012)
+                   Omega Pharmacy, 2714 Osborne Rd, Suite K 
+                   <br />
+                   Saint Marys, GA – 31558
                   </span>
                 </li>
                 <li className="flex items-center gap-3">
                   <Phone className="h-4 w-4 shrink-0 text-pharma-400" />
                   <a
-                    href="tel:+91-7818852886"
+                    href="Phone:912-226-7622 "
                     className="transition-colors duration-300 hover:text-white"
                   >
-                    +91-7818852886
+                    912-226-7622 
                   </a>
                 </li>
               </ul>
