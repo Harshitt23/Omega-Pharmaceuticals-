@@ -1,6 +1,6 @@
 # Omega Pharmacy — Landing Page
 
-A responsive, single-page marketing site for **Omega Pharmacy**, built as a front-end assignment for a company interview and shortlisting process.
+A responsive, single-page marketing site for **Omega Pharmacy**.
 
 The goal was to deliver a polished, production-style landing page: clear information hierarchy, pharma-appropriate visual design, smooth interactions, and full responsiveness from mobile through desktop.
 
