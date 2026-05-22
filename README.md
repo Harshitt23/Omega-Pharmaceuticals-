@@ -113,4 +113,4 @@ _harshitr2308@gmail.com / https://www.linkedin.com/in/harshitcode/._
 
 ## License
 
-This project was created for evaluation purposes. All rights reserved unless otherwise stated by the assigning company.
+This project was created for evaluation purposes. All rights reserved unless otherwise stated by the assigning companyy.
